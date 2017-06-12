@@ -1,0 +1,42 @@
+{
+  "name": "code4mk/multitrust",
+  "description": "Latest package for managing multi-auth roles and permissions in Laravel by hellolaravel.org",
+  "keywords": [
+    "roles",
+    "permissions",
+    "acl",
+    "auth",
+    "laravel",
+    "illuminate",
+    "multi-auth"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "code4mk"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.4",
+    "laravel/framework": "5.4.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Code4mk\\Multitrust\\": "src/"
+    }
+  },
+  "require-dev": {
+    "orchestra/database": "@dev",
+    "orchestra/testbench": "@dev",
+    "mockery/mockery": "^0.9.6",
+    "phpunit/phpunit": "^5.6",
+    "satooshi/php-coveralls": "1.0.*",
+    "sebastian/environment": "2.0.*"
+  },
+  "autoload-dev": {
+    "classmap": [
+      "tests/TestCase.php",
+      "tests/User.php"
+    ]
+  }
+}
