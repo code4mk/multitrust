@@ -2,3 +2,14 @@
 
 ### Latest roles and permission for multi-auth or single-auth
 ---
+* Full Documentation : https://hellolaravel.org/multitrust
+---
+
+
+### Courtesy:
+* https://twitter.com/_jacurtis (@jacurtis) - for multiauth system . >> multiauth+multitrust 
+
+* https://github.com/romanbican  (Roman Bican)
+
+* https://github.com/ultraware (Ultraware)
+---
