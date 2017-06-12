@@ -6,10 +6,10 @@
 ---
 
 
-### Courtesy:
-* https://twitter.com/_jacurtis (@jacurtis) - for multiauth system . >> multiauth+multitrust 
+### Thanks
+* [@jacurtis](https://twitter.com/_jacurtis) - for multiauth system . >> multiauth+multitrust 
 
-* https://github.com/romanbican  (Roman Bican)
+*  [Roman Bican](https://github.com/romanbican)
 
-* https://github.com/ultraware (Ultraware)
+* [Ultraware](https://github.com/ultraware)
 ---
