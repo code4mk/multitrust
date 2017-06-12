@@ -4,8 +4,38 @@
 ---
 * Full Documentation : https://hellolaravel.org/multitrust
 ---
+### composer `multi-auth` + `multitrust`
+```php
+composer require "code4mk/multitrust:dev-master"
+```
 
+### Composer `Default auth` + `multitrust`
+```php
+********************************* comming
+```
 
+### provider :-------
+
+```php
+Code4mk\Multitrust\MultitrustServiceProvider::class,
+```
+
+### config clear 
+
+```php
+php artisan config:clear
+```
+
+### Vendor Publish
+```php
+php artisan vendor:publish --provider="Code4mk\Multitrust\MultitrustServiceProvider" --tag=config
+
+php artisan vendor:publish --provider="Code4mk\Multitrust\MultitrustServiceProvider" --tag=migrations
+
+```
+---
+* Full Documentation : https://hellolaravel.org/multitrust
+---
 ### Thanks
 * [@jacurtis](https://twitter.com/_jacurtis) - for multiauth system . >> multiauth+multitrust 
 
