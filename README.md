@@ -9,9 +9,9 @@
 composer require "code4mk/multitrust:dev-master"
 ```
 
-### Composer `Default auth` + `multitrust`
+### Composer `Default auth \ single-auth` + `multitrust`
 ```php
-********************************* comming
+composer require "code4mk/multitrust": "1.0.x-dev"
 ```
 
 ### provider :-------
