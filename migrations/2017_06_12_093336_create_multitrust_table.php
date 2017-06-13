@@ -55,22 +55,7 @@ class CreateMultitrustTable extends Migration
               $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
               $table->timestamps();
           });
-          Schema::create('admin_role', function (Blueprint $table) {
-              $table->increments('id')->unsigned();
-              $table->integer('role_id')->unsigned()->index();
-              $table->foreign('role_id')->references('id')->on('roles')->onDelete('cascade');
-              $table->integer('admin_id')->unsigned()->index();
-              $table->foreign('admin_id')->references('id')->on('admins')->onDelete('cascade');
-              $table->timestamps();
-          });
-          Schema::create('admin_permission', function (Blueprint $table) {
-              $table->increments('id')->unsigned();
-              $table->integer('permission_id')->unsigned()->index();
-              $table->foreign('permission_id')->references('id')->on('permissions')->onDelete('cascade');
-              $table->integer('admin_id')->unsigned()->index();
-              $table->foreign('admin_id')->references('id')->on('admins')->onDelete('cascade');
-              $table->timestamps();
-          });
+
 
 
     }
@@ -87,7 +72,6 @@ class CreateMultitrustTable extends Migration
         Schema::drop('permissions');
         Schema::drop('permission_role');
         Schema::drop('permission_user');
-        Schema::drop('admin_role');
-        Schema::drop('admin_permission');
+
     }
 }

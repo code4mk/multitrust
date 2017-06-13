@@ -20,10 +20,5 @@ interface PermissionHasRelations
      */
     public function users();
 
-    /**
-     * Permission belongs to many Admins
-     *
-     * @return BelongsToMany
-     */
-    public function Admins();
+
 }

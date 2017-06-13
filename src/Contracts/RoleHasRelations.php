@@ -22,11 +22,7 @@ interface RoleHasRelations
      */
     public function users();
 
-    /**
-     * Role belongs to many Admins
-     * @return BelongsToMany
-     */
-    public function admins();
+  
 
     /**
      * Attach permission to a role.

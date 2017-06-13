@@ -28,14 +28,7 @@ trait RoleHasRelations
         return $this->belongsToMany(config('auth.providers.users.model'))->withTimestamps();
     }
 
-     /**
-      * Role belongs Tomany
-      * @return BelongsToMany
-      */
-    public function admins()
-    {
-        return $this->belongsToMany(config('auth.providers.admins.model'))->withTimestamps();
-    }
+
 
     /**
      * Attach permission to a role.
