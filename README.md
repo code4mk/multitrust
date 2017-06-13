@@ -11,7 +11,7 @@ composer require "code4mk/multitrust:dev-master"
 
 ### Composer `Default auth` + `multitrust`
 ```php
-********************************* comming
+composer require "code4mk/multitrust": "1.0.x-dev"
 ```
 
 ### provider :-------
@@ -20,7 +20,7 @@ composer require "code4mk/multitrust:dev-master"
 Code4mk\Multitrust\MultitrustServiceProvider::class,
 ```
 
-### config clear 
+### config clear
 
 ```php
 php artisan config:clear
@@ -37,7 +37,7 @@ php artisan vendor:publish --provider="Code4mk\Multitrust\MultitrustServiceProvi
 * Full Documentation : https://hellolaravel.org/multitrust
 ---
 ### Thanks
-* [@jacurtis](https://twitter.com/_jacurtis) - for multiauth system . >> multiauth+multitrust 
+* [@jacurtis](https://twitter.com/_jacurtis) - for multiauth system . >> multiauth+multitrust
 
 *  [Roman Bican](https://github.com/romanbican)
 
