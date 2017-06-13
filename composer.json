@@ -1,6 +1,6 @@
 {
   "name": "code4mk/multitrust",
-  "description": "Latest package for managing multi-auth roles and permissions in Laravel by hellolaravel.org",
+  "description": "Latest package for managing multi-auth / single-auth roles and permissions in Laravel by hellolaravel.org",
   "keywords": [
     "roles",
     "permissions",
