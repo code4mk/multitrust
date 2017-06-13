@@ -2,7 +2,7 @@
 
 ### Latest roles and permission for multi-auth or single-auth
 ---
-* Full Documentation : https://hellolaravel.org/multitrust
+* Full Documentation : https://hellolaravel.org/mk/multitrust
 ---
 ### composer `multi-auth` + `multitrust`
 ```php
@@ -34,7 +34,7 @@ php artisan vendor:publish --provider="Code4mk\Multitrust\MultitrustServiceProvi
 
 ```
 ---
-* Full Documentation : https://hellolaravel.org/multitrust
+* Full Documentation : https://hellolaravel.org/mk/multitrust
 ---
 ### Thanks
 * [@jacurtis](https://twitter.com/_jacurtis) - for multiauth system . >> multiauth+multitrust
