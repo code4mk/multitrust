@@ -1,6 +1,8 @@
 ![multitrust](https://user-images.githubusercontent.com/17185462/27048621-5d5c413a-4fce-11e7-8ca4-dc7d6df16db9.png)
 
 ### Latest roles and permission for multi-auth or single-auth
+[![Total Downloads](https://poser.pugx.org/code4mk/multitrust/downloads)](https://packagist.org/packages/code4mk/multitrust)
+[![License](https://poser.pugx.org/code4mk/multitrust/license)](https://packagist.org/packages/code4mk/multitrust)
 ---
 * Full Documentation : https://hellolaravel.org/mk/multitrust
 ---
