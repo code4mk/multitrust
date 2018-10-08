@@ -4,7 +4,7 @@
 [![Total Downloads](https://poser.pugx.org/code4mk/multitrust/downloads)](https://packagist.org/packages/code4mk/multitrust)
 [![License](https://poser.pugx.org/code4mk/multitrust/license)](https://packagist.org/packages/code4mk/multitrust)
 ---
-* Full Documentation : https://hellolaravel.org/mk/multitrust
+* Full Documentation : https://laravel.code4mk.org/mk/multitrust
 ---
 ### composer `multi-auth` + `multitrust`
 ```php
@@ -36,7 +36,7 @@ php artisan vendor:publish --provider="Code4mk\Multitrust\MultitrustServiceProvi
 
 ```
 ---
-* Full Documentation : https://hellolaravel.org/mk/multitrust
+* Full Documentation : https://laravel.code4mk.org/mk/multitrust
 ---
 ### Thanks
 * [@jacurtis](https://twitter.com/_jacurtis) - for multiauth system . >> multiauth+multitrust 
